@@ -19,35 +19,23 @@
 <body>
   <script type="text/javascript">
     function move1() {
-      if(screen.width>= 576 +"px"){
-      window.scroll({ top: 500, left: 0, behavior: 'smooth' });
-      }else{
-        window.scroll({ top: 760, left: 0, behavior: 'smooth' });
-      }
-    }
+      document.getElementById("border-01").scrollIntoView({behavior: 'smooth' });
+    };
     function move2() {
-      if(screen.width>= 576 +"px"){
-      window.scroll({ top: 2180, left: 0, behavior: 'smooth' });
-      }else{
-        window.scroll({ top: 2725, left: 0, behavior: 'smooth' });
-      }
-    }
+      document.getElementById("bigbox-02").scrollIntoView({behavior: 'smooth' });
+    };
     function move3() {
-      if(screen.width>= 576 +"px"){
-      window.scroll({ top: 2800, left: 0, behavior: 'smooth' });
-      }else{
-        window.scroll({ top: 3140, left: 0, behavior: 'smooth' });
-      }
-    }
+      document.getElementById("bigbox-03").scrollIntoView({behavior: 'smooth' });
+    };
     function move4() {
-      window.scroll({ top: 5210, left: 0, behavior: 'smooth' });
-    }
+      document.getElementById("bigbox-04").scrollIntoView({behavior: 'smooth' });
+    };
     function move5() {
-      window.scroll({ top: 6130, left: 0, behavior: 'smooth' });
-    }
+      document.getElementById("bigbox-05").scrollIntoView({behavior: 'smooth' });
+    };
     function back(){
       window.scroll({ top: 0, left: 0, behavior: 'smooth' });
-    }
+    };
     </script>
   <!-- Start your project here-->
   <header>
@@ -200,7 +188,7 @@
   </div>
   </div>
 
-  <div class="container mt-5" id="bigbox-01">
+  <div class="container mt-5" id="bigbox-03">
     <div class="row" id="box-002">
       <div id="box005" class="col-lg ml-5">
         <div class="row-sm">
@@ -219,13 +207,13 @@
       </div>
     </div>
   </div>
-  <div class="container justify-content-center mt-5 w-50">
+  <div class="container justify-content-center mt-5 w-75">
         <h5 class="w-100 mb-3">株式会社モコム</h5>
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">会社名</th>
-              <th scope="col">株式会社モコム</th>
+              <th scope="col" style="width:30%">会社名</th>
+              <th scope="col" style="width:70%">株式会社モコム</th>
             </tr>
           </thead>
           <tbody>
@@ -263,13 +251,13 @@
         </table>
       </div>
 
-      <div class="container justify-content-center mt-5 w-50">
+      <div class="container justify-content-center mt-5 w-75">
         <h5 class="w-100 mb-3">株式会社PDP</h5>
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">会社名</th>
-              <th scope="col">株式会社ピー・ディー・ピー</th>
+              <th scope="col" style="width:30%">会社名</th>
+              <th scope="col" style="width:70%">株式会社ピー・ディー・ピー</th>
             </tr>
           </thead>
           <tbody>
@@ -306,13 +294,13 @@
           </tbody>
         </table>
       </div>
-      <div class="container justify-content-center mt-5 mb-5 w-50">
+      <div class="container justify-content-center mt-5 mb-5 w-75">
         <h5 class="w-100 mb-3">Global Mocom Transcending Inc.</h5>
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">会社名</th>
-              <th scope="col">Global Mocom Transcending Inc.</th>
+              <th scope="col" style="width:30%">会社名</th>
+              <th scope="col" style="width:70%">Global Mocom Transcending Inc.</th>
             </tr>
           </thead>
           <tbody>
@@ -363,7 +351,7 @@
       </div>
 
 <div class="container-fluid" id="box004">
-      <div class="container mt-5" id="bigbox-01">
+      <div class="container mt-5" id="bigbox-04">
         <div class="row" id="box-005">
           <div id="box006" class="col-lg ml-5">
             <div class="row-sm  mt-5">
@@ -375,16 +363,13 @@
           </div>
         </div>
       </div>
-       <div class="container justify-content-center mt-5 mb-5 w-50">
+       <div class="container justify-content-center mt-5 mb-5 w-75">
         
         <table class="table">
-          <thead>
-            
-          </thead>
           <tbody>
             <tr>
-              <th scope="row">1990年<br/> (平成2年)</th>
-              <td>株式会社モバイルエンジニアリングを神奈川県川崎市に設立<br/>
+              <th scope="row" style="width:30%">1990年<br/> (平成2年)</th>
+              <td style="width:70%">株式会社モバイルエンジニアリングを神奈川県川崎市に設立<br/>
                 資本金1,000万円にてスタート</td>
               
             </tr>
@@ -430,7 +415,7 @@
       </div>
     </div>
 
-      <div class="container mt-5" id="bigbox-01">
+      <div class="container mt-5" id="bigbox-05">
         <div class="row" id="box-002">
           <div id="box007" class="col-lg ml-5">
             <div class="row-sm">

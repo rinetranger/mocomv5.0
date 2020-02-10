@@ -29,8 +29,8 @@ footer{
     position: absolute;
     width:50px;
     height: 50px;
-    top:700px;
-    left:1300px;
+    top:90%;
+    left:90%;
     border-radius: 50px;
     background-color:rgb(241, 0, 129);
     text-align: center;
@@ -67,6 +67,18 @@ header{
     justify-content: center;
    
 }
+#bigbox-04{
+    width:100%;
+    justify-content: center;
+   
+}
+#bigbox-05{
+    width:100%;
+    justify-content: center;
+   
+}
+
+
 #box004{
     width: 100%;
     background-color: hsla(228, 6.57%, 57.19%, 0.1);
@@ -278,7 +290,7 @@ li{
     margin-bottom:50px;
     padding:1px;
     word-break: normal;
-    padding-right:45px;
+    padding-right:15px;
 }
 #operationtitle-01{
     margin:10px auto;
@@ -289,7 +301,7 @@ li{
     margin-bottom: 50px;
     padding:1px;
     word-break: normal;
-    padding-right:45px;
+    padding-right:15px;
 }
 #operationtitle-02{
     margin:10px auto;
@@ -300,7 +312,7 @@ li{
     margin-bottom: 50px;
     padding:1px;
     word-break: break-all;
-    padding-right:45px;
+    padding-right:15px;
 }
 
 #companybox{
@@ -353,4 +365,9 @@ textarea{
 
 #contacttitle{
    text-align: center;
+}
+
+table{
+    table-layout:fixed;
+    width:100%;
 }

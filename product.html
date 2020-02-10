@@ -19,14 +19,14 @@
 <body>
   <script type="text/javascript">
     function move1() {
-      window.scroll({ top: 500, left: 0, behavior: 'smooth' });
-    }
+      document.getElementById("bigbox-01").scrollIntoView({behavior: 'smooth' });
+    };
     function move2() {
-      window.scroll({ top: 1680, left: 0, behavior: 'smooth' });
-    }
+      document.getElementById("bigbox-02").scrollIntoView({behavior: 'smooth' });
+    };
     function back(){
       window.scroll({ top: 0, left: 0, behavior: 'smooth' });
-    }
+    };
    
     </script>
   <!-- Start your project here-->
@@ -178,7 +178,7 @@
   </div>
 
 </div>
-<div class="container mt-5 mb-5" id="bigbox-01">
+<div class="container mt-5 mb-5" id="bigbox-02">
     <div class="row">
         <div id="box002" class="col-lg">
             <div class="row-sm">
